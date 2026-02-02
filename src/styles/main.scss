@@ -1,3 +1,67 @@
+/* #region page */
+html{
+  font-family: "Cinzel", serif;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 700px;
+}
+
 body {
   margin: 0;
+}
+/* #endregion page */
+
+/* #region page */
+.header{
+  box-sizing: border-box;
+  padding: 25px 20px;
+  height: 100vh;
+  background-image: url(/images/bk.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.header__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__icons{
+  display: flex;
+  gap: 24px; 
+}
+
+.header__center{
+  color: #fff;
+  display: flex;
+  margin-top: 120px;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: 100%;
+}
+/* #endregion page */
+
+/* #region page */
+.icon{
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.icon--phone{
+  background-image: url(/images/Icon-Phone-call.png);
+}
+
+.icon--menu{
+  background-image: url(/images/Icon-Burger-menu.png);
+}
+
+/* #endregion page */
+
+.footer{
+
 }
