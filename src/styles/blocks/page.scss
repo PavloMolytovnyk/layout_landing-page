@@ -24,11 +24,11 @@
 
       padding-inline: 20px;
 
-      @include on-tablet(){
+      @include on-tablet{
         padding-inline: 72px;
       }
 
-      @include on-desctop(){
+      @include on-desctop{
         padding-inline: 121px;
       }
   }

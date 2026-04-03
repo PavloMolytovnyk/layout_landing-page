@@ -76,7 +76,7 @@
     }
 }
 
-@include on-tablet(){
+@include on-tablet{
     
     .field{
         display: grid;
@@ -99,7 +99,7 @@
 
 }
 
-@include on-desctop(){
+@include on-desctop{
     .field{
         display: flex;
     }

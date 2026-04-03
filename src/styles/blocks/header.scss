@@ -1,5 +1,4 @@
 .header{
-
   box-sizing: border-box;
   height: 100vh;
   background-image: url(/images/bk.png);
@@ -21,13 +20,13 @@
     font-size: 40px;
   }
   
-    @include on-tablet(){
+    @include on-tablet{
       &__top{
         padding-inline: 72px;
       }
     }
 
-    @include on-desctop(){
+    @include on-desctop{
        &__top{
         padding-inline: 121px;
       }

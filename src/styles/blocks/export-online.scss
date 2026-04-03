@@ -1,12 +1,12 @@
 
 .online{
-    margin: 40px auto 0px;
+    margin: 40px auto 0;
     width: min-content;
     text-align: center;
 
 }
 
-@include on-desctop(){
+@include on-desctop{
     .block{
         display: flex;
     }

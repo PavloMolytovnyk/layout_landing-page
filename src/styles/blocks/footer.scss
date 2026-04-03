@@ -16,8 +16,7 @@
         object-position: center;
     }
     
-    @include on-tablet(){
-        
+    @include on-tablet{
         .footer-photo{
             width: 175%;
             height: 170%;
@@ -25,7 +24,7 @@
     
     }
     
-    @include on-desctop(){
+    @include on-desctop{
       
         .footer-photo{
             width: 100%;

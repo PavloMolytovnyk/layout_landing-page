@@ -56,7 +56,7 @@
         
     }
 
-    @include on-tablet(){
+    @include on-tablet{
         .view-block__photo{
             height: 186px;
             width: 184px;
@@ -87,7 +87,7 @@
 
     }
 
-    @include on-desctop(){
+    @include on-desctop{
         .view-block__photo{
             height: 320px;
             width: 324px;
@@ -145,11 +145,11 @@
         transition: background-color 0.3s;
     }
 
-    @include on-desctop(){
+    @include on-desctop{
         width: 324px;
     }
 
-    @include on-tablet(){
+    @include on-tablet{
         width: 392px;
     }
 }
