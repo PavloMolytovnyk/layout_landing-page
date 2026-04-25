@@ -10,7 +10,7 @@
     margin: 0;
     min-width: 320px;
 
-    &:has(#menu:target) {
+    &:has(.page__menu:target) {
       overflow: hidden;
     }
   }

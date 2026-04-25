@@ -68,16 +68,17 @@
 .block__title{
     margin: 0;
 
-    .title__list:first-child{
-        color: #161616;
-        font-weight: 400;
-    }
 }
 
 .title__list{
     margin: 0;
     text-decoration: none;
     color: #161616;
+
+    &:first-child{
+        color: #161616;
+        font-weight: 400;
+    }
 
     &--phone{
         margin-bottom: 8px;
