@@ -2,13 +2,17 @@
   font-family: Cinzel, serif ;
   font-size: 16px;
   line-height: 27px;
-  font-weight: 700px;
+  font-weight: 700;
 
   scroll-behavior: smooth;
 
   &__body {
     margin: 0;
     min-width: 320px;
+
+    &:has(#menu:target) {
+      overflow: hidden;
+    }
   }
   
   &__menu{
@@ -21,8 +25,8 @@
     transform: translateX(-100%);
     transition: all 0.3s;
     pointer-events: none;
-
-      padding-inline: 20px;
+    padding-inline: 20px;
+    overflow-y: auto;
 
       @include on-tablet{
         padding-inline: 72px;

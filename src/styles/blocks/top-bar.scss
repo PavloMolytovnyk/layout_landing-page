@@ -25,4 +25,37 @@
     display: flex;
     gap: 24px; 
   }
+
+}
+
+.blocks {
+  color: white;
+  position: absolute;
+  top: 35px;
+  right: 250px;
+  text-align: end;
+
+  opacity: 0;
+  transform: translateY(-10px); 
+  pointer-events: none;
+
+  transition: all 0.3s ease;
+
+  .calls {
+    margin: 4px 0;
+
+    &__block {
+      margin: 0;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.icon--phone:hover + .blocks {
+  @include on-desctop{
+    opacity: 1;
+    transform: translateY(0); 
+    pointer-events: all;
+  }
 }

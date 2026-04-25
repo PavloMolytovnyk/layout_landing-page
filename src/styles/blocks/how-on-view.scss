@@ -121,36 +121,40 @@
 
 }
 
+
 .exhibition{
-    width: 280px;
-    margin: 0 auto;
-    height: 56px;
-    background-color: #D12D35;
     display: flex;
     justify-content: center;
 
     &__title{
+        height: 56px;
+        background-color: #D12D35;
         color: #fff;
-        text-align: center;
-    }
-
-    &:hover{
-        cursor: pointer;
-        background-color: #AE1C23;
-        transition: background-color 0.3s;
-    }
-
-    &:active{
-        background-color: #EB343D;
-        transition: background-color 0.3s;
-    }
-
-    @include on-desctop{
-        width: 324px;
-    }
-
-    @include on-tablet{
-        width: 392px;
+        font-family: Cinzel, serif;
+        font-weight: 700;
+        font-size: 16px;
+    
+        border: none;
+        outline: none;
+    
+        &:hover{
+            cursor: pointer;
+            background-color: #AE1C23;
+            transition: background-color 0.3s;
+        }
+    
+        &:active{
+            background-color: #EB343D;
+            transition: background-color 0.3s;
+        }
+    
+        @include on-desctop{
+            width: 324px;
+        }
+    
+        @include on-tablet{
+            width: 392px;
+        }
     }
 }
 
