@@ -27,6 +27,15 @@
         color: #161616;
     }
 
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 1000px #F8F8FA inset !important;
+        -webkit-text-fill-color: #161616 !important;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+
 }
 
 

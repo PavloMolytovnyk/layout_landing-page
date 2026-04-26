@@ -1,6 +1,10 @@
+.block{
+    display: flex;
+    justify-content: center;
+}
 
 .online{
-    margin: 40px auto 0;
+    margin: 40px 12px;
     width: min-content;
     text-align: center;
 
@@ -17,8 +21,8 @@
 }
 
 .online-photo{
-    height: 277px;
-    width: 280px;
+    height: 320px;
+    width: 324px;
 
     object-fit: cover;
 }
