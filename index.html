@@ -16,10 +16,6 @@
       rel="stylesheet"
       href="src/styles/main.scss"
     />
-    <script
-      src="src/scripts/main.js"
-      defer
-    ></script>
   </head>
 <body class="page__body">
 
@@ -31,15 +27,17 @@
         </a>
   
         <div class="top-bar__icons">
-          <a href="#" class="icon icon--phone"></a>
-          <div class="blocks">
-            <div class="calls">
-              <p class="calls__block">The Met Fifth Avenue</p>
-              <a target=_blank href="tel:+1 212-535-7710" class="calls__block">+1 212-535-7710</a>
-            </div>
-            <div class="calls">
-              <p class="calls__block">The Met Cloisters</p>
-              <a target=_blank href="tel:+1 212-923-3700" class="calls__block">+1 212-923-3700</a>
+          <div class="phone-wrapper">
+            <a href="#" class="icon icon--phone"></a>
+            <div class="blocks">
+              <div class="calls">
+                <p class="calls__block">The Met Fifth Avenue</p>
+                <a target=_blank href="tel:+1 212-535-7710" class="calls__block">+1 212-535-7710</a>
+              </div>
+              <div class="calls">
+                <p class="calls__block">The Met Cloisters</p>
+                <a target=_blank href="tel:+1 212-923-3700" class="calls__block">+1 212-923-3700</a>
+              </div>
             </div>
           </div>
           <a href="#menu" class="icon icon--menu "></a>
@@ -269,5 +267,6 @@
     <img src="./images/image-11.png" alt="image-11" class="footer-photo">
 
   </footer>
+  <script type="module" src="./src/scripts/main.js"></script>
 </body>
 </html>

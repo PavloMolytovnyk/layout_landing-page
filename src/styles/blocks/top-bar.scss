@@ -28,11 +28,24 @@
 
 }
 
+.phone-wrapper {
+  position: relative;
+  display: inline-block;
+
+  &:hover .blocks {
+    opacity: 1;
+    transform: translateY(-25%);
+    pointer-events: all;
+  }
+}
+
 .blocks {
   color: white;
   position: absolute;
-  top: 35px;
-  right: 250px;
+  top: 0;
+  right: 0;
+  padding-right: 50px;
+  width: 200px;
   text-align: end;
 
   opacity: 0;
@@ -52,10 +65,3 @@
   }
 }
 
-.icon--phone:focus + .blocks {
-  @include on-desctop{
-    opacity: 1;
-    transform: translateY(0); 
-    pointer-events: all;
-  }
-}
