@@ -52,7 +52,7 @@
   }
 }
 
-.icon--phone:hover + .blocks {
+.icon--phone:focus + .blocks {
   @include on-desctop{
     opacity: 1;
     transform: translateY(0); 
