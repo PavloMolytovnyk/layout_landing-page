@@ -1,5 +1,5 @@
 .block{
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
@@ -8,12 +8,6 @@
     width: min-content;
     text-align: center;
 
-}
-
-@include on-desctop{
-    .block{
-        display: flex;
-    }
 }
 
 .online-title{
@@ -25,4 +19,10 @@
     width: 324px;
 
     object-fit: cover;
+}
+
+@include on-desctop{
+    .block{
+        display: flex;
+    }
 }
