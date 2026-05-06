@@ -36,6 +36,7 @@
   padding-right: 50px;
   width: 200px;
   text-align: end;
+  display: none;
 
   opacity: 0;
   transform: translateY(-10px); 
@@ -62,6 +63,12 @@
     opacity: 1;
     transform: translateY(-25%);
     pointer-events: all;
+  }
+}
+
+@include on-desctop{
+  .blocks{
+    display: block;
   }
 }
 

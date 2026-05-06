@@ -3,6 +3,9 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+
+    width: 100%; 
+    max-width: 350px;
 }
 
 .fields__text{
@@ -68,10 +71,10 @@
     margin-bottom: 100px;
 }
 
-.contacts-block{
+.contacts-block {
     margin-bottom: 48px;
-    margin-left: 70px;
     width: 237px;
+    margin-inline: auto; 
 }
 
 .block__title{
